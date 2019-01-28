@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		285DD20621FFA35400EB7E48 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DD20521FFA35400EB7E48 /* ConversionViewController.swift */; };
 		285DD20921FFAD1100EB7E48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285DD20821FFAD1100EB7E48 /* MapKit.framework */; };
+		285DD20B21FFAF8800EB7E48 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DD20A21FFAF8800EB7E48 /* MapViewController.swift */; };
 		28A3E59421FE69BE000A1AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3E59321FE69BE000A1AC4 /* AppDelegate.swift */; };
 		28A3E59921FE69BE000A1AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A3E59721FE69BE000A1AC4 /* Main.storyboard */; };
 		28A3E59B21FE69C0000A1AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A3E59A21FE69C0000A1AC4 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		285DD20521FFA35400EB7E48 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		285DD20821FFAD1100EB7E48 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		285DD20A21FFAF8800EB7E48 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		28A3E59021FE69BE000A1AC4 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A3E59321FE69BE000A1AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28A3E59821FE69BE000A1AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				28A3E59C21FE69C0000A1AC4 /* LaunchScreen.storyboard */,
 				28A3E59F21FE69C0000A1AC4 /* Info.plist */,
 				285DD20521FFA35400EB7E48 /* ConversionViewController.swift */,
+				285DD20A21FFAF8800EB7E48 /* MapViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				285DD20621FFA35400EB7E48 /* ConversionViewController.swift in Sources */,
+				285DD20B21FFAF8800EB7E48 /* MapViewController.swift in Sources */,
 				28A3E59421FE69BE000A1AC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
