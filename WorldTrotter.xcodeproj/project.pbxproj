@@ -17,6 +17,7 @@
 		28A3E59E21FE69C0000A1AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A3E59C21FE69C0000A1AC4 /* LaunchScreen.storyboard */; };
 		28A3E5A921FE69C0000A1AC4 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3E5A821FE69C0000A1AC4 /* WorldTrotterTests.swift */; };
 		28A3E5B421FE69C0000A1AC4 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3E5B321FE69C0000A1AC4 /* WorldTrotterUITests.swift */; };
+		28ECDBC42205C206002F8203 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ECDBC32205C206002F8203 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		28A3E5AF21FE69C0000A1AC4 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A3E5B321FE69C0000A1AC4 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		28A3E5B521FE69C0000A1AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28ECDBC32205C206002F8203 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				285DD20521FFA35400EB7E48 /* ConversionViewController.swift */,
 				285DD20A21FFAF8800EB7E48 /* MapViewController.swift */,
 				28678D6B220256B10057CDB9 /* MapView2ViewController.swift */,
+				28ECDBC32205C206002F8203 /* WebViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				285DD20621FFA35400EB7E48 /* ConversionViewController.swift in Sources */,
 				28678D6C220256B10057CDB9 /* MapView2ViewController.swift in Sources */,
 				285DD20B21FFAF8800EB7E48 /* MapViewController.swift in Sources */,
+				28ECDBC42205C206002F8203 /* WebViewController.swift in Sources */,
 				28A3E59421FE69BE000A1AC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

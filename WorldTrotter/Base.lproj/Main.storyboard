@@ -91,7 +91,17 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="12" y="402"/>
+            <point key="canvasLocation" x="169" y="923"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="a3w-R1-oIQ">
+            <objects>
+                <viewController id="6sq-9V-pdb" customClass="WebViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="ED5-T1-q5Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mtE-4a-zp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2585" y="922"/>
         </scene>
         <!--Map2-->
         <scene sceneID="RDf-79-ghc">
@@ -101,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aji-xR-Mh4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="804" y="27"/>
+            <point key="canvasLocation" x="1742" y="922"/>
         </scene>
         <!--Map-->
         <scene sceneID="iBn-BC-uW9">
@@ -115,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MYK-My-fdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12" y="-332"/>
+            <point key="canvasLocation" x="932" y="923"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ytd-YG-bDy">
@@ -131,6 +141,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="M8O-ul-mbV"/>
                         <segue destination="Jbg-1b-Zkx" kind="relationship" relationship="viewControllers" id="7wN-63-qTj"/>
                         <segue destination="0Hx-5E-MAn" kind="relationship" relationship="viewControllers" id="ShK-15-xZe"/>
+                        <segue destination="6sq-9V-pdb" kind="relationship" relationship="viewControllers" id="m8f-GM-J3S"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uej-Fa-zbQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
