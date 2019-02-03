@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MapView2ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+class Map2ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
     var mapView: MKMapView!
     var locationManager: CLLocationManager!
@@ -46,7 +46,7 @@ class MapView2ViewController: UIViewController, MKMapViewDelegate, CLLocationMan
         segmentedControl.selectedSegmentIndex = 0
         view.addSubview(segmentedControl)
         
-        segmentedControl.addTarget(self, action: #selector(MapView2ViewController.mapTypeChanged(_:)), for: .valueChanged)
+        segmentedControl.addTarget(self, action: #selector(Map2ViewController.mapTypeChanged(_:)), for: .valueChanged)
         
         setConstraints(segmentedControl)
     }
@@ -91,7 +91,7 @@ class MapView2ViewController: UIViewController, MKMapViewDelegate, CLLocationMan
         bottomConstraint.isActive = true
         centreConstraint.isActive = true
         
-        locateButton.addTarget(self, action: #selector(MapView2ViewController.determineUserLocation), for: .touchDown)
+        locateButton.addTarget(self, action: #selector(Map2ViewController.determineUserLocation), for: .touchDown)
     }
     
     @objc func determineUserLocation(){
@@ -151,7 +151,7 @@ class MapView2ViewController: UIViewController, MKMapViewDelegate, CLLocationMan
         bottomConstraint.isActive = true
         trailingConstraint.isActive = true
         
-        switchButton.addTarget(self, action: #selector(MapView2ViewController.goToNextPastLocation), for: .touchUpInside)
+        switchButton.addTarget(self, action: #selector(Map2ViewController.goToNextPastLocation), for: .touchUpInside)
     }
     
     @objc func goToNextPastLocation(){
